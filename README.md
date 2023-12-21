@@ -13,13 +13,16 @@ This repository contains a Laravel project integrated with Tailwind CSS. Follow 
 ## Installation
 
 1. Clone the repository to your local machine:
-
+2. Masuk directory lms-project
+3. Jalankan command:
     - composer install
     - npm install
+    - buat .env file 
     - php artisan key:generate
+    - buat database mysql (db_lms)
     - php artisan migrate --seed
 
-2. Jalankan:
+2. Jalankan di local machine:
     - php artisan serve
     - npm run dev
 
